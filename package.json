@@ -1,0 +1,33 @@
+{
+  "name": "boilermakerworkshop",
+  "version": "1.0.0",
+  "description": "Workshop to create boilerplate, that integrates React, Redux, Express, Sequelize and Authetification system",
+  "main": "index.js",
+  "scripts": {
+    "build": "webpack",
+    "build:dev": "npm run build -- --watch --mode=development",
+    "start": "node server",
+    "start:dev": "npm run build:dev & npm run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "hector-nevarez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "morgan": "^1.10.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^6.0.1",
+    "redux": "^4.1.2",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.4.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/preset-react": "^7.16.0",
+    "babel-loader": "^8.2.3",
+    "webpack": "^5.62.1",
+    "webpack-cli": "^4.9.1"
+  }
+}
